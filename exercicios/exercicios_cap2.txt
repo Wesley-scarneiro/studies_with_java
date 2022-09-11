@@ -1,0 +1,1 @@
+1. Qual é a estrutura de um programa mínimo em Java? Um programa mínimo em Java deve conter uma declaração de pacote (package), uma ou mais diretivas de importação (import) e uma declaração de classe. 
