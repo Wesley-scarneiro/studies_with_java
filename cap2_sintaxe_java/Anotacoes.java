@@ -11,9 +11,9 @@ class ExemploAnotacao {
 	String nome;
 	
 	/*
-	 * Sobreponto o método toString.
+	 * Sobrepondo o método toString.
 	 * @Override : Indica que o método está sendo sobreposto.
-	 * @SuppressWarnings : Supremi avisos sobre a variável "x" não utilizada.
+	 * @SuppressWarnings : Suprimi avisos sobre a variável "x" não utilizada.
 	 */
 	@Override
 	@SuppressWarnings("unused")
