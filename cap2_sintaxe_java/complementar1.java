@@ -6,7 +6,7 @@ package studies_with_java.capitulo2_exercicios;
 
 import java.util.Random;
 
-public class complementar1 {
+public class Complementar1 {
 	
 	/*
 	 * Gera números do tipo double e int aleatórios para popular uma matriz quadrada de ordem N.
@@ -23,6 +23,7 @@ public class complementar1 {
 				
 				tipo = random.nextBoolean();
 				int max = random.nextInt(100);
+				if (max == 0) max = 100;
 				if (tipo == true) matriz[i][j] = random.nextDouble(max);
 				else matriz[i][j] = random.nextInt(max);
 			}
@@ -52,5 +53,18 @@ public class complementar1 {
 		popularMatriz(matriz);
 		imprimir(matriz);
 	}
-
 }
+
+/*
+2,56	77,95	6,26	
+18,00	2,00	7,67	
+81,00	39,46	36,03	
+
+1,00	17,85	8,00	
+0,00	21,00	86,00	
+23,95	4,16	73,07	
+
+25,75	17,59	0,44	
+11,00	9,00	61,00	
+37,27	49,00	39,00	
+*/
